@@ -21,11 +21,17 @@ There are two buttons here:
     a List floating button
 
 The Add Floating button brings you to the Alarm Details Screen
-On the Alarm Details screen from the main menu, the user can create an alarm and toggle a series of settings. 
+
+On the Alarm Details screen from the main menu, the user can create an alarm and toggle a series of settings:
+
 Name the alarm at the Alarm Label Edit Text
+
 Choose a time picker time setting for the alarm to launch
+
 Choose what days the alarm will play on the Alarm Repeat Days Fragment that launches from the repeat button 
+
 Choose what specific feature they want to launch when the alarm intent launches, they do this by choosing an item on the options spinner (this feature is not implemented functionality yet due to time restrictions, currently only weather works )
+
 They can choose when the alarm will vibrate the phone by clicking on the vibrate button. 
 
 
