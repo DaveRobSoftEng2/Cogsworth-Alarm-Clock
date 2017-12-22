@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.davey.davescogsworth">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name="com.davey.davescogsworth.AlarmReceiver"/>
+
+        <service android:name="com.davey.davescogsworth.RingtonePlayingService"
+            android:enabled="true">
+        </service>
+
+        <activity
+            android:name="com.davey.davescogsworth.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.davey.davescogsworth.AlarmDetailsActivity"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName="com.davey.davescogsworth.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.davey.davescogsworth.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.davey.davescogsworth.AlarmListActivity"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName="com.davey.davescogsworth.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.davey.davescogsworth.MainActivity" />
+        </activity>
+
+
+        <provider
+            android:name="com.davey.davescogsworth.data.AlarmProvider"
+            android:authorities="com.davey.davescogsworth"
+            android:exported="false" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>
