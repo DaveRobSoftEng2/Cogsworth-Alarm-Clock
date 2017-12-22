@@ -16,14 +16,14 @@ Either way, Run the application on whichever device you choose.
 
 # Code Execution
 The app starts at the home screen, or main activity. 
-![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/MainScreen.png)
+![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/MainScreen.png =250x100)
 
 There are two buttons here:
     an Add floating button
     a List floating button
 
 The Add Floating button brings you to the Alarm Details Screen
-![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/newAlarm.png)
+![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/newAlarm.png =250x100)
 
 On the Alarm Details screen from the main menu, the user can create an alarm and toggle a series of settings:
 
@@ -40,12 +40,12 @@ They can choose when the alarm will vibrate the phone by clicking on the vibrate
 The List Floating Button from the main menu brings you to the List of Alarms Screen
 
 At the List of Alarms Screen
-![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/AlarmList.png)
+![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/AlarmList.png =250x100)
 
 The  Alarm Detail screen can be brought up either by clicking an alarm item on the List of Alarms page or by Clicking the Add alarm button on the main screen. 
 
 If the user clicks on an Alarm Item on the list of alarms page the Alarm Details screen will be pre populated by the Alarm Details. Also the options menu will be inflated to allow for Alarm Deletion. 
-![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/EditAlarm.png)
+![alt text](https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/EditAlarm.png =250x100)
 
 # Source Code
 Check out the source code we’ve specifically written, in either xml or java, int he folder entitled “Source Code” 
