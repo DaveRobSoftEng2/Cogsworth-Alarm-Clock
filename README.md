@@ -1,5 +1,7 @@
 # Cogsworth-Alarm-Clock
 
+Robert Cucchiara & David DaCosta
+
 # Project Presentation https://docs.google.com/presentation/d/1vn6RLZX_otCjZXSrYCPxLsxeTDILn3xs73rdD2eGics/edit#slide=id.p
 
 
