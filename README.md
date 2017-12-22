@@ -16,7 +16,7 @@ Either way, Run the application on whichever device you choose.
 
 # Code Execution
 The app starts at the home screen, or main activity. 
-[[https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/AlarmList.png]]
+[[https://github.com/DaveRobSoftEng2/Cogsworth-Alarm-Clock/blob/master/imgs/AlarmList.png|alt=alarmList]]
 
 There are two buttons here:
     an Add floating button
